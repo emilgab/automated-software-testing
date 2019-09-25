@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.brand {
+    /* Google font */
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.catchphrase {
+    margin-top: -20px;
+    /* Google font */
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.introduction, .footer, .gear, .contact, .about-contact {
+    font-size: 14px;
+}
+
+.footer {
+    color: grey;
+}
