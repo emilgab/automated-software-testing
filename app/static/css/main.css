@@ -30,3 +30,11 @@ section {
 .footer {
     color: grey;
 }
+
+.reviews {
+    font-size: 12px;
+}
+
+.comment {
+    color: grey;
+}

@@ -1,2 +1,6 @@
 # Mac files
 .DS_store
+
+# Python and Flask related files
+__pycache__/
+.pyc

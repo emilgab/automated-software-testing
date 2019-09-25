@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+<section class="introduction">
+    We're the <em>lorem ipsum</em> of making code bug-free! We specialize in making code readable, work faster and most importantly, bug-free!*
+</section>
+<section class="gear">
+    Some say that we were once bitten by a Python, and after 6 days of agonizing pain, the Python died. Some may also say that we're afraid of ducks. All we know is that we clean code!
+</section>
+<section class="about-contact">
+    For any more questions or enquries, please try to contact us. If you are able to contact us, we'll be as surprised as you! <br>Happy coding!
+</section>
+<section class="footer">
+    <em>We don't guarantee a bug-free code</em>
+</section>
+<section class="reviews">
+    <strong>We got a lot of happy customers! Read some of the reviews below:</strong>
+    <hr>
+    {% for key, value in reviews.items() %}
+    <p><span class="reviewer">{{ key }}</span> wrote:<br>
+    <span class="comment">{{ value }}</span></p>
+    {% endfor %}
+    <hr>
+</section>
+{% endblock %}
