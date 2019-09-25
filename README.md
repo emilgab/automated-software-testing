@@ -1,6 +1,7 @@
+![OsloMet logo](assets/oslomet.png)
 # Technical task: Automated Software Testing
 
-*A part of the OsloMet course: "ACIT 4410: Agile Service and Developer"*
+*A part of the OsloMet course: "ACIT 4410: Agile Service Delivery and Developer Operations"*
 
 ---
 
@@ -35,3 +36,6 @@ They have heard of **Jenkins** as a test-scheduling system and are interested in
 This solution will require a bit of scripting, Docker and Git as well as Jenkins automation. You are to demonstrate that your solution works.
 
 Technically, a site would not break if there is an error in the HTML, but for this scenario we will pretend that it do!
+
+### Expanding the task
+I will find ways to improve the testing during the project and will document the process.
