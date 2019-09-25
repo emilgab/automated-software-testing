@@ -4,3 +4,9 @@
 # Python and Flask related files
 __pycache__/
 .pyc
+.Python
+
+# virtualenv files
+bin/
+include/
+lib/
