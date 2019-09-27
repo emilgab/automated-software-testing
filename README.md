@@ -37,5 +37,18 @@ This solution will require a bit of scripting, Docker and Git as well as Jenkins
 
 Technically, a site would not break if there is an error in the HTML, but for this scenario we will pretend that it do!
 
-### Expanding the task
-I will find ways to improve the testing during the project and will document the process.
+## Expanding the task
+In addition to testing for errors in the HTML, I will expand the project by using the Flask framework and check for errors in code associated with Flask.
+
+#### Short about Flask
+Flask is a microframework used to create web applications with Python. Compared to other frameworks like Django, Flask starts you off with as little functionality as possible, giving you the possibility to expand in which way you want.
+
+#### Flask dependencies
+Flask has the following dependencies
+*(taken from: https://flask.palletsprojects.com/en/1.1.x/installation/)*:
+
++ Jinja: A web template for the Python language.
++ MarkupSafe: Included with Jinja. Avoids injection attacks by escaping untrusted input when rendering web templates.
++ Werkzeug: Implements a Web Server Gateway Interface. This is the standard interface between apps and servers for Python.
++ ItsDangerous: Used to sign data and ensures its integrity.
++ Click: a framework for writing command line applications. Provides the *flask* command.
